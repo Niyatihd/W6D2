@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  list-style-type: none;
+  padding: 0;
+  background-image: url ("hulk.jpg");
+}
+
+ul > li {
+  border: 1px solid black;
+  width: 33%;
+  height: 200px;
+  background-color:  lightgray;
+  font-size: 250px;
+  text-align: center;
+  line-height: 152px;
+}
+
+ul > li:hover {
+  background-color: yellow;
+}
